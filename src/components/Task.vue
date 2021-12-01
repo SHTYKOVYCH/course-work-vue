@@ -9,7 +9,7 @@
     <section class="task__body">
         <textarea
             class="task__detail"
-            name="BODY"
+            name="body"
             cols="30"
             rows="10"
             style="resize: none"
