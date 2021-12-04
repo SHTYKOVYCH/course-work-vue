@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="app">
     <TaskList></TaskList>
   </div>
 </template>
@@ -13,20 +13,22 @@ export default {
   components: {
     TaskList
   },
-  data: function() {
-    return {
-    }
+  data: function () {
+    return {}
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="sass">
+body
+  background-color: #77767b
+
+.app
+  display: flex
+  width: 100%
+
+  max-width: 1920px
+
+  justify-content: center
+
 </style>
