@@ -10,9 +10,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
-    "express": "^4.17.1"
-  },
-  "devDependencies": {
+    "express": "^4.17.1",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
@@ -22,6 +20,8 @@
     "sass": "^1.43.5",
     "sass-loader": "^10.2.0",
     "vue-template-compiler": "^2.6.11"
+  },
+  "devDependencies": {
   },
   "eslintConfig": {
     "root": true,
